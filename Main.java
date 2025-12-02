@@ -48,11 +48,11 @@ public class Main {
         System.out.print("Situação: ");
 
         if (finalMedia >= 7) {
-            System.out.println("APROVADO 🎉");
+            System.out.println("APROVADO ");
         } else if (finalMedia >= 5) {
-            System.out.println("RECUPERAÇÃO ⚠️");
+            System.out.println("RECUPERAÇÃO ");
         } else {
-            System.out.println("REPROVADO ❌");
+            System.out.println("REPROVADO ");
         }
 
         System.out.println("====================================");
@@ -60,4 +60,5 @@ public class Main {
         entrada.close();
     }
 }
+
 
